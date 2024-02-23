@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'neon';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf');
+}
+
+body {
+  font-family: 'Grandiflora One', cursive;
+  background-color: #000000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+strong {
+  font-size: 25px;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #222;
+  padding: 5px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h4,
+section,
+p {
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+}
+
+.timeline-item,
+p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: left;
+}
+
+.timeline-item:hover {
+  color: #FB4264;
+  text-shadow: 0 0 3vw #F40A35;
+  animation: neon 2s ease infinite;
+}
+
+#timeline {
+  margin-bottom: 50px;
+}
+
+#home,
+#timeline,
+#milestones,
+#end {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#best-clips {
+  background-color: #9512ba;
+  border-radius: 15px;
+}
+
+#milestones h2 {
+  color: #FFD700;
+}
+
+#milestones ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#milestones li {
+  margin-bottom: 10px;
+}
+
+img,
+.title-image {
+  width: 100%;
+  max-width: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #222;
+}
+
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 5vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+  text-align: center;
+  animation: neon 4s ease infinite;
+}
+
+@keyframes neon {
+
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128;
+    color: #FED128;
+  }
+
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B;
+    color: #806914;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .main-content,
+  img,
+  .title-image {
+    max-width: 90%;
+    border-radius: 15px;
+  }
+
+  .timeline-item,
+  p {
+    font-size: 18px;
+    /* 화면이 작을 때 글자 크기 조정 */
+  }
+
+  .neon {
+    font-size: 8vw;
+    line-height: 12vw;
+  }
+}
+
+.mile_container {
+  padding-bottom: 50px;
+  display: grid;
+  place-items: center;
+  /* 가로 및 세로 중앙 정렬 */
+}
+
+.milestone-item {
+  background: linear-gradient(135deg, #000000, #6a5acd);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 추가: 중앙 정렬 */
+  color: white;
+  margin: 20px 0;
+  /* 세로 사이즈 조정 */
+  min-height: 200px;
+  width: 80%;
+  /* 세로 사이즈 증가 */
+}
+
+.game-image {
+  width: 280px;
+  /* 이미지 너비 조정 */
+  height: 400px;
+  /* 이미지 높이 조정, 비율에 맞게 조절 */
+  margin-right: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  /* 세로 방향으로 중앙 정렬 */
+  align-items: flex-start;
+  /* 텍스트 왼쪽 정렬 */
+}
+
+.game-name,
+.play-time,
+.date-text {
+  margin: 4px 0;
+  /* 간격 조정 */
+}
+
+.game-name {
+  font-size: 20px;
+}
+
+.play-time {
+  font-size: 18px;
+}
+
+.date-text {
+  font-size: 16px;
+}
+
+.small-title-image {
+  width: 100px;
+  /* 너비를 100px로 설정 */
+  height: auto;
+  /* 원본 비율 유지 */
+}
+
+p{
+  text-align: center;
+}
