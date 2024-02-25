@@ -9,7 +9,7 @@
 
 body {
   font-family: "Gugi", sans-serif;
-  background-color: #000000;
+  background-color: #18181b;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -70,17 +70,13 @@ section {
   padding: 20px;
 }
 
-
 .timeline-item,
 p {
-  font-family: "Noto Sans KR", sans-serif;
   font-size: 20px;
   margin-bottom: 15px;
   transition: transform 0.2s, box-shadow 0.2s;
   text-align: left;
 }
-
-
 
 .timeline-item:hover {
   color: #FB4264;
@@ -96,14 +92,14 @@ p {
 #timeline,
 #milestones,
 #end {
-  background-color: #000;
+  background-color: #18181b;
   color: #fff;
   padding: 20px;
   margin-top: 20px;
 }
 
 #best-clips {
-  background-color: #9512ba;
+  background-color: #a970ff;
   border-radius: 15px;
 }
 
@@ -133,7 +129,7 @@ footer {
   text-align: center;
   margin-top: 20px;
   padding: 10px;
-  background-color: #0b0029;
+  background-color: #18181b;
 }
 
 .neon {
@@ -190,7 +186,7 @@ footer {
 }
 
 .milestone-item {
-  background: linear-gradient(135deg, #000000, #6a5acd);
+  background: linear-gradient(135deg, #18181b, #6a5acd);
   border-radius: 15px;
   padding: 20px;
   display: flex;
