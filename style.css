@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Grandiflora One', cursive;
+  font-family: "Gugi", sans-serif;
   background-color: #000000;
   color: #fff;
   margin: 0;
@@ -133,7 +133,8 @@ footer {
 }
 
 .neon {
-  font-family: neon;
+  font-family: "Anta", sans-serif;
+  font-style: normal;
   color: #FB4264;
   font-size: 5vw;
   line-height: 9vw;
