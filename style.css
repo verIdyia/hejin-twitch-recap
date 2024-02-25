@@ -70,13 +70,17 @@ section {
   padding: 20px;
 }
 
+
 .timeline-item,
 p {
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 20px;
   margin-bottom: 15px;
   transition: transform 0.2s, box-shadow 0.2s;
   text-align: left;
 }
+
+
 
 .timeline-item:hover {
   color: #FB4264;
